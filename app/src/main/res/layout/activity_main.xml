@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/texto_semoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A SEMOC (Semana de Mobilização Científica) é um evento anual organizado pela UCSAL que promove a interação entre alunos, professores e profissionais da área, oferecendo palestras, workshops e outras atividades educativas."
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/botao_proxima_tela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Palestras" />
+    <Button
+        android:id="@+id/botao_minicursos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minicursos" />
+
+</LinearLayout>

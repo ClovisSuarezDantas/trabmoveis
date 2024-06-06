@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/nome_minicurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOME DO MINICURSO"
+        android:textSize="18sp"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/data_minicurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATA 00/00/0000"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/horarios_minicurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HORÁRIOS 00:00"
+        android:padding="4dp" />
+
+</LinearLayout>
